@@ -12,7 +12,7 @@ Here's a step-by-step explanation of the entire process:
    *(Note: Make sure you use the correct flag --output if that's how your script is set up.)*
 
 2. *Algorithm Selection:*  
-   - *Prompt:* The program asks you to choose a type: “DCT” or “DWT”.  
+   - *Prompt:* The program asks you to choose a type: “DCT” or “DWT” or "SVD".  
    - *Action:* You select one based on your preference (e.g., DCT).
 
 3. *Operation Choice:*  
@@ -21,7 +21,7 @@ Here's a step-by-step explanation of the entire process:
 
 4. *Watermark Embedding Process:*  
    - *What Happens Internally:*  
-     - The chosen algorithm (DCT or DWT) takes the cover image and the watermark image.
+     - The chosen algorithm (DCT or DWT or SVD) takes the cover image and the watermark image.
      - It applies a transformation (like the Discrete Cosine Transform or Discrete Wavelet Transform) to break down the cover image.
      - It then embeds the watermark (or signature) into certain frequency components by slightly modifying them.
      - Finally, it reconstructs the image with the watermark embedded.
@@ -64,7 +64,7 @@ Here's a step-by-step explanation of the entire process:
    *(Replace attacked.jpg with the image from which you want to extract the watermark.)*
 
 2. *Algorithm Selection:*  
-   - *Prompt:* The program asks you to choose a type (DCT or DWT).  
+   - *Prompt:* The program asks you to choose a type (DCT or DWT or SVD).  
    - *Action:* You select the same algorithm you used during embedding (this is important because the extraction process relies on the same transform).
 
 3. *Operation Choice:*  
