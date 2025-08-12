@@ -109,4 +109,4 @@ Here's a step-by-step explanation of the entire process:
 
 By following these steps, you can evaluate the effectiveness of your watermarking algorithm and determine its resilience against various image manipulations.
 
-Let me know if you need any further details or clarifications!
+
